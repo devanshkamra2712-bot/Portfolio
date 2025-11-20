@@ -112,7 +112,7 @@ export default function Resume() {
               <span style={{ color: "#aaa" }}>Percentage: 70%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — GRG sen sec National School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — GRG sen sec National School</strong> (CBSE Board, 2020)
               <br />
               <span style={{ color: "#aaa" }}>Percentage: 82%</span>
             </li>
