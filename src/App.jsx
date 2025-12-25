@@ -11,10 +11,12 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import SkillNetwork from './pages/Skills'  
+import Snowfall from 'react-snowfall'
 
 export default function App() {
   return (
     <div className="app">
+      <Snowfall />
       <Navbar />
       <main style={{ flex: 1 }}>
         <Routes>
