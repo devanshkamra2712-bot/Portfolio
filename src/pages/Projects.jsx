@@ -3,6 +3,14 @@ import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
+  {
+    title: '🩺 Ideal Medicose',
+    desc: 'A full-featured pharmacy SaaS platform (AMCAM Pharma) to build online storefronts. Features a Gemini AI-powered invoice scanner/bill parser, secure real-time ERP inventory/order tracking, and interactive sales dashboards.',
+    ss: '/ideal_medicose.png',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Gemini API', 'Tailwind CSS', 'Framer Motion'],
+    live: 'https://idealmedicose.vercel.app/',
+    code: 'https://github.com/devanshkamra2712-bot/Ideal-Medicose.git'
+  },
   // {
   //   title: '🩺 Mammogram Malignancy Detector',
   //   desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
@@ -80,7 +88,7 @@ export default function Projects() {
           🚀 Projects
         </motion.h2>
         <p className="text-gray-400 mb-10">
-          Coming soon.
+          {PROJECTS.length === 0 ? "Coming soon." : "Here are some of the projects I have worked on recently."}
         </p>
 
         <div className="projects-grid" style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
