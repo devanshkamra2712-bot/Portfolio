@@ -8,7 +8,7 @@ const PROJECTS = [
     desc: 'A full-featured pharmacy SaaS platform (AMCAM Pharma) to build online storefronts. Features a Gemini AI-powered invoice scanner/bill parser, secure real-time ERP inventory/order tracking, and interactive sales dashboards.',
     ss: '/ideal_medicose.png',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Gemini API', 'Tailwind CSS', 'Framer Motion'],
-    live: 'https://idealmedicose.vercel.app/',
+    live: 'https://ideal-medicose.vercel.app/',
     code: 'https://github.com/devanshkamra2712-bot/Ideal-Medicose.git'
   },
   // {
